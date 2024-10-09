@@ -3,5 +3,5 @@ WiFi.softAP(ssid, psk, channel, hidden, max_connection)
 ssid - sequência de caracteres contendo SSID de rede (máx. 32 caracteres)
 psk - string de caracteres opcional com uma chave pré-compartilhada. Para rede WPA2-PSK, deve ter no mínimo 8 caracteres e não mais que 64 caracteres. Se não for especificado, o ponto de acesso estará aberto para qualquer um se conectar.
 channel - parâmetro opcional para definir o canal Wi-Fi, de 1 a 13. Canal padrão = 1.
-hidden - parâmetro opcional, se definido trueocultará o SSID.
+hidden - parâmetro opcional, se definido true ocultará o SSID.
 max_connection - parâmetro opcional para definir o número máximo de estações conectadas simultaneamente, de 0 a 8. O padrão é 4. Quando o número máximo for atingido, qualquer outra estação que queira se conectar será forçada a esperar até que uma estação já conectada se desconecte.

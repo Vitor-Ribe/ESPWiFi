@@ -1,3 +1,6 @@
+/*
+    ESSE CÓDIGO TRANSFORMA A PLACA ESP8266 EM UM ACESS POINT, ONDE DISPOSITIVOS PODEM SE CONECTAR.
+*/
 #include <ESP8266WiFi.h>
 
 const char *ssid = "MinhaRedeESP";  // Nome da rede Wi-Fi
